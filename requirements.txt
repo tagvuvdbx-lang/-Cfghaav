@@ -1,0 +1,16 @@
+# ============================================================
+# SG Panel Store Bot - Python Dependencies
+# Install:  pip install -r requirements.txt
+# Python:   3.10+ recommended (3.11/3.12 best)
+# ============================================================
+
+# Telegram Bot Framework (aiogram 3.x)
+aiogram>=3.13.0,<4.0.0
+
+# Async HTTP client (payments + reseller API)
+aiohttp>=3.9.0,<4.0.0
+
+# NOTE:
+# Standard library modules used by the bot (no install needed):
+#   asyncio, sqlite3, random, logging, time, json,
+#   hmac, hashlib, urllib.parse, datetime, typing
